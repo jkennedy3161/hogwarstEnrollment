@@ -1,0 +1,36 @@
+{
+  "name": "hogwartsEnrollment",
+  "version": "1.0.0",
+  "description": "Join one of the 4 houses of Hogwarts. Built with React, Redux, Flux, MongoDB, Express and Node.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -d",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkennedy3161/hogwartsEnrollment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkennedy3161/hogwartsEnrollment/issues"
+  },
+  "homepage": "https://github.com/jkennedy3161/hogwartsEnrollment#readme",
+  "dependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.4.1"
+  }
+}
