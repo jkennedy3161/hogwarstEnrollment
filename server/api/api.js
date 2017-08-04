@@ -1,10 +1,7 @@
 const router = require('express').Router();
 
+const houseRouter = require('./routes/houseRoutes');
 // hook different model routes here
-router.get('/hogwarts', function(req, res, next) {
-  res.json({
-    ok: true
-  });
-});
+router.use('/houses', houseRouter);
 
 module.exports = router;
