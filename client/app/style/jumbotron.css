@@ -1,0 +1,24 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.emblem {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+
+#nav_bar {
+  background-color: red;
+  border-color: white;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
